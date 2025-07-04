@@ -1,0 +1,108 @@
+body {
+    margin: 20px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #1d2d44;
+}
+
+.avatar {
+    width: 150px;
+    height: 220px;
+    padding: 5px;
+    background-color: #748cab;
+    border-radius: 10%;
+    margin: auto 0px;
+}
+
+.card {
+    width: 400px;
+    margin: auto auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #f0ebd8;
+    color: #1d2d44;
+    border: 6px solid #3e5c76;
+    
+        
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
+.desc {
+    margin: auto auto;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    height: 20px;
+    margin: 0 5px;
+    transition: all 1s ease;
+}
+
+.logo-banner {
+    height: 100px;
+}
+
+.logo:hover {
+    animation: jump 1s ease-in-out infinite;
+}
+
+.avatar:hover {
+    transform: scale(1.1);
+}
+
+@keyframes jump {
+    0% {
+        transform: translateY(0); /* Posisi normal */
+    }
+    25% {
+        transform: translateY(-10px); /* Lompat ke atas */
+    }
+    50% {
+        transform: translateY(0); /* Kembali ke posisi normal */
+    }
+    75% {
+        transform: translateY(-10px); /* Lompat lagi */
+    }
+    100% {
+        transform: translateY(0); /* Kembali ke posisi normal */
+    }
+}
+
+h3 {
+    margin-top: 0px;
+}
+
+h4 {
+    margin-bottom: 15px;
+}
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
