@@ -10,7 +10,7 @@ body {
 }
 
 .avatar {
-    width: 150px;
+    width: 200px;
     height: 220px;
     padding: 5px;
     background-color: #748cab;
@@ -19,11 +19,11 @@ body {
 }
 
 .card {
-    width: 400px;
+    width: 450px;
     margin: auto auto;
     padding: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
     background: #f0ebd8;
     color: #1d2d44;
@@ -42,7 +42,7 @@ body {
 }
 
 .desc {
-    margin: auto auto;
+    margin: auto 25px auto auto;
 }
 
 .logo-container {
